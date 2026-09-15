@@ -80,7 +80,6 @@ export function ProjectLinks({ project: p }: { project: Entry }) {
           href={p.website}
           event={`project-${p.slug}`}
         >
-          <ArrowUpRight size={14} />
           {copy[p.locale].website}
         </External>
       )}
@@ -154,7 +153,7 @@ export function Connect({ locale }: { locale: Locale }) {
         GitHub
       </External>
       <External locale={locale} href={site.x}>
-        <span aria-hidden="true">𝕏</span>X
+        <span aria-hidden="true">𝕏</span>
       </External>
       <a href={localizedPath(locale, "/feed.xml")}>
         <Rss size={17} />

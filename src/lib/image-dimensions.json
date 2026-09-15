@@ -1,0 +1,114 @@
+{
+  "/images/install-openclaw-en-openclaw-install-hero.webp": {
+    "width": 1440,
+    "height": 804
+  },
+  "/images/install-openclaw-en-openclaw-install-pricing.webp": {
+    "width": 1440,
+    "height": 804
+  },
+  "/images/install-openclaw-openclaw-install-hero.webp": {
+    "width": 1440,
+    "height": 804
+  },
+  "/images/install-openclaw-openclaw-install-pricing.webp": {
+    "width": 1440,
+    "height": 804
+  },
+  "/images/openclaw-core-concepts-agent-session-channel.webp": {
+    "width": 1440,
+    "height": 810
+  },
+  "/images/openclaw-core-concepts-architecture-overview.webp": {
+    "width": 1440,
+    "height": 810
+  },
+  "/images/openclaw-core-concepts-en-agent-session-channel.webp": {
+    "width": 1440,
+    "height": 810
+  },
+  "/images/openclaw-core-concepts-en-architecture-overview.webp": {
+    "width": 1440,
+    "height": 810
+  },
+  "/images/openclaw-core-concepts-en-session-lifecycle.webp": {
+    "width": 1440,
+    "height": 810
+  },
+  "/images/openclaw-core-concepts-session-lifecycle.webp": {
+    "width": 1440,
+    "height": 810
+  },
+  "/images/openclaw-multi-user-deployment-overview.zh.webp": {
+    "width": 1440,
+    "height": 960
+  },
+  "/images/quiet-mountains.webp": {
+    "width": 1050,
+    "height": 700
+  },
+  "/images/why-i-developed-selectly-add_function.webp": {
+    "width": 928,
+    "height": 1176
+  },
+  "/images/why-i-developed-selectly-content_center.webp": {
+    "width": 1440,
+    "height": 599
+  },
+  "/images/why-i-developed-selectly-en-add_function.webp": {
+    "width": 928,
+    "height": 1176
+  },
+  "/images/why-i-developed-selectly-en-content_center.webp": {
+    "width": 1440,
+    "height": 599
+  },
+  "/images/why-i-developed-selectly-en-function_config.webp": {
+    "width": 938,
+    "height": 810
+  },
+  "/images/why-i-developed-selectly-en-functions.webp": {
+    "width": 1440,
+    "height": 636
+  },
+  "/images/why-i-developed-selectly-en-llm_config.webp": {
+    "width": 924,
+    "height": 836
+  },
+  "/images/why-i-developed-selectly-en-selectly.webp": {
+    "width": 1440,
+    "height": 689
+  },
+  "/images/why-i-developed-selectly-en-share.webp": {
+    "width": 1408,
+    "height": 776
+  },
+  "/images/why-i-developed-selectly-en-translate.webp": {
+    "width": 1410,
+    "height": 414
+  },
+  "/images/why-i-developed-selectly-function_config.webp": {
+    "width": 938,
+    "height": 810
+  },
+  "/images/why-i-developed-selectly-functions.webp": {
+    "width": 1440,
+    "height": 636
+  },
+  "/images/why-i-developed-selectly-llm_config.webp": {
+    "width": 924,
+    "height": 836
+  },
+  "/images/why-i-developed-selectly-selectly.webp": {
+    "width": 1440,
+    "height": 689
+  },
+  "/images/why-i-developed-selectly-share.webp": {
+    "width": 1408,
+    "height": 776
+  },
+  "/images/why-i-developed-selectly-translate.webp": {
+    "width": 1410,
+    "height": 414
+  }
+}

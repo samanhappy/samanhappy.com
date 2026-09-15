@@ -120,15 +120,16 @@ main {
   margin: auto;
 }
 .hero {
-  min-height: 409px;
+  min-height: 349px;
   position: relative;
   display: flex;
   align-items: center;
   overflow: hidden;
-  padding: 51px 0 52px;
+  padding: 21px 0 22px;
 }
 .hero-copy {
   position: relative;
+  top: 30px;
   z-index: 1;
 }
 .eyebrow {
@@ -708,7 +709,7 @@ main {
 }
 @media (min-width: 1400px) {
   .hero {
-    min-height: 445px;
+    min-height: 385px;
   }
 }
 @media (max-width: 1150px) {

@@ -23,19 +23,19 @@ export function dateLabel(date: string, locale: Locale, monthOnly = false) {
 }
 export const copy = {
   zh: {
-    name: "孙青扬",
+    name: "青扬",
     description:
-      "做有用的产品，写真实的思考。这里记录孙青扬在 AI 工程、开源工具和独立产品上的实践。",
+      "做有用的产品，写真实的思考。这里记录青扬在 AI 工程、开源工具和独立产品上的实践。",
     nav: ["首页", "项目", "文章", "关于", "近况"],
     navLabel: "主导航",
     languageLabel: "选择语言",
     skip: "跳至正文",
     identity: "软件工程师 · AI 产品构建者 · 开源开发者",
     headline: "做有用的产品，写真实的思考。",
-    subheading: "为 AI 原生时代，做实用、耐用的工具。",
+    subheading: "为 AI 原生时代，做有用、好用的工具。",
     current: "正在打磨 MCPHub，也在探索独立产品。",
-    note: ["让互联网安静一点，", "让工具更有用一点。"],
-    motto: ["长期主义，", "做有用的事。"],
+    note: ["",""],
+    motto: ["",""],
     viewProjects: "查看项目",
     readWriting: "阅读文章",
     selectedWork: "精选项目",
@@ -46,7 +46,7 @@ export const copy = {
     about: "关于我",
     now: "近况",
     aboutPreview:
-      "我是孙青扬（Meng），一名关注 AI 工程、开发者工具和 Agent 基础设施的软件工程师。工作中，我参与企业 AI 系统建设；工作之外，我维护开源项目，探索独立产品，希望把真实需求做成能长期使用的工具。",
+      "我是青扬，一名关注 AI 工程、开发者工具和 Agent 基础设施的软件工程师。工作中，我参与企业 AI 系统建设；工作之外，我维护开源项目，探索独立产品，希望把真实需求做成能长期使用的工具。",
     nowItems: [
       "将 MCPHub 打磨成值得信任的 MCP 网关。",
       "为中文开发者推出 Codex Reset。",
@@ -79,7 +79,7 @@ export const copy = {
     emptyTitle: "还在实践，慢慢记录。",
     emptyDescription: "这个分类暂时没有已发布文章。",
     aboutEyebrow: "关于这个网站背后的人",
-    aboutTitle: "你好，我是孙青扬 / Meng。",
+    aboutTitle: "你好，我是青扬。",
     aboutSubtitle: "软件工程师，也是独立产品构建者。长期主义，做有用的事。",
     aboutIntro: [
       "我是一名软件工程师，关注 AI 工程、开发者工具与 Agent 基础设施。白天，我参与真实业务中的企业 AI 系统建设；工作之外，我维护开源项目，也探索独立产品。",
@@ -125,9 +125,9 @@ export const copy = {
     backHome: "回到首页",
   },
   en: {
-    name: "Sun Qingyang",
+    name: "Saman",
     description:
-      "Useful products. Honest reflections. Notes from Sun Qingyang on AI engineering, open source, and building independent products.",
+      "Useful products. Honest reflections. Notes from Saman on AI engineering, open source, and building independent products.",
     nav: ["Home", "Projects", "Writing", "About", "Now"],
     navLabel: "Main navigation",
     languageLabel: "Choose language",
@@ -136,8 +136,8 @@ export const copy = {
     headline: "Useful products. Honest reflections.",
     subheading: "Building useful tools for the AI-native world.",
     current: "Currently building MCPHub and exploring independent products.",
-    note: ["A quieter internet,", "with more useful tools."],
-    motto: ["Think long term.", "Build useful things."],
+    note: ["",""],
+    motto: ["",""],
     viewProjects: "View projects",
     readWriting: "Read writing",
     selectedWork: "Selected work",
@@ -148,7 +148,7 @@ export const copy = {
     about: "About",
     now: "Now",
     aboutPreview:
-      "I'm Sun Qingyang (Meng), a software engineer focused on AI engineering, developer tools, and agent infrastructure. At work, I build enterprise AI systems. Outside work, I maintain open-source projects and explore independent products—useful tools built around real needs.",
+      "I'm Saman, a software engineer focused on AI engineering, developer tools, and agent infrastructure. At work, I build enterprise AI systems. Outside work, I maintain open-source projects and explore independent products—useful tools built around real needs.",
     nowItems: [
       "Building MCPHub into a trusted MCP gateway.",
       "Launching Codex Reset for Chinese developers.",
@@ -182,7 +182,7 @@ export const copy = {
     emptyTitle: "Still exploring. Notes to come.",
     emptyDescription: "There are no published articles in this category yet.",
     aboutEyebrow: "A LITTLE ABOUT ME",
-    aboutTitle: "Hi, I'm Meng / Sun Qingyang.",
+    aboutTitle: "Hi, I'm Saman.",
     aboutSubtitle:
       "Software engineer. Independent product builder. Thinking long term and making useful things.",
     aboutIntro: [

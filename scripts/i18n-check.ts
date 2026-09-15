@@ -7,7 +7,7 @@ async function main() {
     const html = await r.text();
     assert.ok(
       html.includes(
-        `<title>${locale === "zh" ? "孙青扬" : "Sun Qingyang"} · samanhappy</title>`,
+        `<title>${locale === "zh" ? "青扬" : "Saman"} · samanhappy</title>`,
       ),
       "homepage title",
     );

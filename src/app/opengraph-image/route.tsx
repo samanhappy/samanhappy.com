@@ -16,7 +16,7 @@ export function GET() {
       }}
     >
       <div style={{ fontSize: 25, color: "#3f6654" }}>samanhappy.com</div>
-      <div style={{ fontSize: 76, marginTop: 75 }}>Sun Qingyang</div>
+      <div style={{ fontSize: 76, marginTop: 75 }}>Saman</div>
       <div style={{ fontSize: 31, marginTop: 25, color: "#686c68" }}>
         Building useful tools for the AI-native world.
       </div>

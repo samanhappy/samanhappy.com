@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import sharp from "sharp";
-const root = "/Users/sunmeng/code/github/me";
+const root = "~/code/github/me";
 let count = 0;
 for (const year of ["2025", "2026"])
   for (const file of fs

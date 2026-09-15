@@ -2,7 +2,7 @@
 
 ## 1. 项目目标
 
-建设个人网站 **samanhappy.com**，作为孙青扬的长期个人数字主页。
+建设个人网站 **samanhappy.com**，作为青扬的长期个人数字主页。
 
 网站不是传统简历站，也不是纯博客，而是统一连接：
 
@@ -104,7 +104,7 @@ GitHub
 内容：
 
 ```text
-孙青扬
+青扬
 
 Software Engineer · AI Builder · Open Source
 
@@ -296,7 +296,7 @@ About 不写成长篇简历。
 推荐结构：
 
 ```text
-Hi, I'm Meng / 孙青扬.
+Hi, I'm Saman.
 
 I'm a software engineer and independent product builder.
 
@@ -494,9 +494,9 @@ canonical
 简洁介绍：
 
 ```text
-# Sun Qingyang
+# Saman
 
-Sun Qingyang is a software engineer, AI builder and open-source developer.
+Saman is a software engineer, AI builder and open-source developer.
 
 He builds tools for the AI-native world.
 
@@ -592,7 +592,7 @@ X（如果公开）
 每个产品官网未来应该反向链接：
 
 ```text
-Built by Sun Qingyang
+Built by Saman
 → samanhappy.com
 ```
 
@@ -896,7 +896,7 @@ Footer
 Footer：
 
 ```text
-© 2026 Sun Qingyang
+© 2026 Saman
 
 GitHub · RSS · llms.txt
 

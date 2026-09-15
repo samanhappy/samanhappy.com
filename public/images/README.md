@@ -1,6 +1,6 @@
 # 图片来源
 
-文章图片：来自旧站 `/Users/sunmeng/code/github/me/src/assets/images`，迁移时转换为 WebP。
+文章图片：来自旧站 `~/code/github/me/src/assets/images`，迁移时转换为 WebP。
 
 `quiet-mountains.webp`：使用内置 imagegen 工具为本站生成，再压缩为 WebP。装饰用途，空 alt。原始生成文件保留在 Codex generated_images 中。
 

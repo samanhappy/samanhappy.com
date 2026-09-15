@@ -10,7 +10,7 @@ canonical: 'https://samanhappy.com/zh/writing/my-ai-adoption-journey'
 draft: false
 author: Mitchell Hashimoto
 authorUrl: 'https://mitchellh.com'
-translator: 孙青扬
+translator: 青扬
 ---
 
 我在采用任何有意义的工具时，通常都会经历三个阶段：

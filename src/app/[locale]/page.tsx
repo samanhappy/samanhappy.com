@@ -34,7 +34,7 @@ export default async function Home({ params }: Props) {
               "@type": "Person",
               "@id": `${site.url}/#person`,
               name: t.name,
-              alternateName: ["孙青扬", "Sun Qingyang", "samanhappy", "Meng"],
+              alternateName: ["青扬", "Saman"],
               url: site.url,
               jobTitle: locale === "zh" ? "软件工程师" : "Software Engineer",
               sameAs: [
@@ -91,7 +91,6 @@ export default async function Home({ params }: Props) {
             <br />
             {t.note[1]}
           </p>
-          <span />
           <p className={locale === "zh" ? "chinese-note" : ""}>
             {t.motto[0]}
             <br />

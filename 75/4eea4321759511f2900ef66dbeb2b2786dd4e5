@@ -1,0 +1,24 @@
+src/app/globals.css
+  s_67cb5fb8565925::t_cfbb6972151a16 123,128,132,712
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "754eea4321759511f2900ef66dbeb2b2786dd4e5",
+  "prompts": {},
+  "humans": {
+    "h_18676a549cd52a": {
+      "author": "samanhappy <samanhappy@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_67cb5fb8565925": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a543-2bb6-7b60-97b8-9de62a2d1c63",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "samanhappy <samanhappy@gmail.com>"
+    }
+  }
+}

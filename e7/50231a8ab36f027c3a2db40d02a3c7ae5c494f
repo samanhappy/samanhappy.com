@@ -1,0 +1,29 @@
+content/writing/zh/group-routing.md
+  s_78a065f019917c::t_0399c93eb2b03e 1-156
+content/writing/en/smart-routing.md
+  s_78a065f019917c::t_0399c93eb2b03e 1-182
+content/writing/en/group-routing.md
+  s_78a065f019917c::t_0399c93eb2b03e 1-156
+content/writing/zh/smart-routing.md
+  s_78a065f019917c::t_0399c93eb2b03e 1-182
+content/writing/zh/one-click-deploy.md
+  s_78a065f019917c::t_0399c93eb2b03e 1-82
+content/writing/en/one-click-deploy.md
+  s_78a065f019917c::t_0399c93eb2b03e 1-82
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e750231a8ab36f027c3a2db40d02a3c7ae5c494f",
+  "prompts": {},
+  "sessions": {
+    "s_78a065f019917c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a7de-ca03-7252-97f2-31514bbb65bc",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "samanhappy <samanhappy@gmail.com>"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # samanhappy.com
 
-青扬的中英文个人网站。按 `spec.md` 和 `design.png` 实现，使用 Next.js App Router、TypeScript、Markdown / MDX。内容保存在 Git 仓库，无数据库或 CMS。
+青扬的中英文个人网站，使用 Next.js App Router、TypeScript、Markdown / MDX。内容保存在 Git 仓库，无数据库或 CMS。
 
 ## 本地运行
 

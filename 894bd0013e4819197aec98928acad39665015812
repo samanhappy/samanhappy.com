@@ -1,0 +1,16 @@
+src/lib/i18n.ts
+  h_18676a549cd52a 35,137
+src/components/ui.tsx
+  h_18676a549cd52a 156
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "894bd0013e4819197aec98928acad39665015812",
+  "prompts": {},
+  "humans": {
+    "h_18676a549cd52a": {
+      "author": "samanhappy <samanhappy@gmail.com>"
+    }
+  }
+}

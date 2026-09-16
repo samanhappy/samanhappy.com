@@ -1,0 +1,22 @@
+src/app/route.ts
+  s_d3bf6d72b0c2da::t_4b7ff20de8cc65 9-11,17-19
+  s_d3bf6d72b0c2da::t_55a152cd6b7466 1-8,12-16,20-27
+scripts/i18n-check.ts
+  s_d3bf6d72b0c2da::t_55a152cd6b7466 4-27,29-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0c4e13c09cd3818515244d383de260de4e4284b4",
+  "prompts": {},
+  "sessions": {
+    "s_d3bf6d72b0c2da": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a98e-cd18-7541-b8a6-a0895bcc2016",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "samanhappy <samanhappy@gmail.com>"
+    }
+  }
+}

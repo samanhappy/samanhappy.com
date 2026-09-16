@@ -1,0 +1,39 @@
+content/writing/zh/err-ssl-protocol-error.md
+  s_78a065f019917c::t_cb164a1ff10588 1-70
+src/lib/image-dimensions.json
+  s_78a065f019917c::t_82ec8ff7e267b3 113-124
+content/writing/en/err-ssl-protocol-error.md
+  s_78a065f019917c::t_cb164a1ff10588 1-70
+content/writing/en/ai-in-plain-language-definitions-and-models.md
+  s_78a065f019917c::t_950f82a96a27ca 1-22
+content/writing/en/every-life-deserves-to-be-recorded.md
+  s_78a065f019917c::t_2ca843f21df859 1-24
+content/writing/en/less-is-more.md
+  s_78a065f019917c::t_bf341f3442ebde 1-44
+content/writing/en/naming-in-software-development.md
+  s_78a065f019917c::t_96aeb9540f018b 1-53
+content/writing/zh/ai-in-plain-language-definitions-and-models.md
+  s_78a065f019917c::t_af8682176fdb9d 1-22
+content/writing/zh/every-life-deserves-to-be-recorded.md
+  s_78a065f019917c::t_87cefe0866e094 1-24
+content/writing/zh/less-is-more.md
+  s_78a065f019917c::t_7f21809a21f20a 1-44
+content/writing/zh/naming-in-software-development.md
+  s_78a065f019917c::t_b7067c57059cc6 1-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "b52da9135dcc3a8a6631988feaf3d3c3a49d86e6",
+  "prompts": {},
+  "sessions": {
+    "s_78a065f019917c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a7de-ca03-7252-97f2-31514bbb65bc",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "samanhappy <samanhappy@gmail.com>"
+    }
+  }
+}

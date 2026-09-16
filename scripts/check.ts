@@ -90,7 +90,6 @@ async function main() {
   for (const route of ["/does-not-exist", "/fr/projects", "/fr/feed.xml"])
     assert.equal((await fetch(base + route)).status, 404, route);
   for (const [old, dest] of [
-    ["/", "/zh"],
     ["/writing", "/zh/writing"],
     ["/projects/mcphub.md", "/zh/projects/mcphub.md"],
     [

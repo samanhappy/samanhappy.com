@@ -10,7 +10,6 @@ const config: NextConfig = {
   },
   async redirects() {
     return [
-      { source: "/", destination: "/zh", permanent: true },
       ...["projects", "writing", "about", "now"].map((p) => ({
         source: `/${p}/:path*`,
         destination: `/zh/${p}/:path*`,

@@ -1,0 +1,14 @@
+README.md
+  h_18676a549cd52a 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "020d5de029d0a3f46722fe0b863f05df20914be3",
+  "prompts": {},
+  "humans": {
+    "h_18676a549cd52a": {
+      "author": "samanhappy <samanhappy@gmail.com>"
+    }
+  }
+}

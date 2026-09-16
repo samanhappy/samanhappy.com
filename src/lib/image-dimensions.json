@@ -110,5 +110,17 @@
   "/images/why-i-developed-selectly-translate.webp": {
     "width": 1410,
     "height": 414
+  },
+  "/images/err-ssl-protocol-error-error.png": {
+    "width": 1080,
+    "height": 531
+  },
+  "/images/err-ssl-protocol-error-chrome-flags.png": {
+    "width": 1080,
+    "height": 141
+  },
+  "/images/err-ssl-protocol-error-nginx-version.png": {
+    "width": 802,
+    "height": 140
   }
 }

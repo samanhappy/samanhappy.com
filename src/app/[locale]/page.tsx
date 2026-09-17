@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Favorites from "@/components/favorites";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { entries } from "@/lib/content";
@@ -133,6 +134,15 @@ export default async function Home({ params }: Props) {
               <WritingCard key={p.slug} post={p} />
             ))}
         </div>
+      </section>
+      <section className="home-section">
+        <SectionHeading
+          title={t.favorites}
+          href={localizedPath(locale, "/favorites")}
+          label={t.allFavorites}
+        />
+        <p className="favorites-description">{t.favoritesDescription}</p>
+        <Favorites locale={locale} limit={3} />
       </section>
       <section className="home-section bottom-grid">
         <div>

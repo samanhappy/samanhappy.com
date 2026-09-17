@@ -24,6 +24,7 @@ try {
         "/writing/why-i-developed-selectly",
         "/about",
         "/now",
+        "/favorites",
       ]) {
         const response = await page.goto(`${base}/${locale}${route}`);
         assert.equal(response.status(), 200);
@@ -38,6 +39,37 @@ try {
           await page.locator("html").getAttribute("lang"),
           locale === "zh" ? "zh-CN" : "en",
         );
+        if (!route || route === "/favorites") {
+          assert.equal(await page.locator(".favorite-quote").count(), 2);
+          const quotes = page.locator(".favorite-quote");
+          const text = await quotes.allTextContents();
+          if (locale === "zh") {
+            assert.ok(
+              text[0].includes("所有命运馈赠的礼物，早已在暗中标好了价格。"),
+            );
+            assert.ok(text[0].includes("斯蒂芬·茨威格"));
+            assert.ok(text[1].includes("真正美好的事物，从不主动寻求关注"));
+            assert.ok(text[1].includes("《白日梦想家》"));
+            assert.ok(!/[a-zA-Z]/.test(text.join("")));
+          } else {
+            assert.ok(
+              text[0].includes(
+                "All the gifts bestowed by fate have long had their prices marked in secret.",
+              ),
+            );
+            assert.ok(text[0].includes("Stefan Zweig"));
+            assert.ok(
+              text[0].includes(
+                "Marie Antoinette: The Portrait of an Average Woman",
+              ),
+            );
+            assert.ok(
+              text[1].includes("Beautiful things don't ask for attention."),
+            );
+            assert.ok(text[1].includes("The Secret Life of Walter Mitty"));
+            assert.ok(!/\p{Script=Han}/u.test(text.join("")));
+          }
+        }
         if (!route)
           await page.screenshot({
             path: `reports/home-${locale}-${width}.png`,
@@ -45,6 +77,15 @@ try {
           });
       }
     }
+  await page.goto(base + "/zh");
+  await page.getByRole("link", { name: "全部喜欢", exact: true }).click();
+  await page.waitForURL(base + "/zh/favorites");
+  await page.screenshot({ path: "reports/favorites-zh.png", fullPage: true });
+  await page.goto(base + "/en/about");
+  await page
+    .getByRole("link", { name: "All favorites →", exact: true })
+    .click();
+  await page.waitForURL(base + "/en/favorites");
   await page.goto(base + "/zh/writing?category=Building#main");
   await page.getByRole("link", { name: "Switch to English" }).click();
   await page.waitForURL(base + "/en/writing?category=Building#main");
@@ -60,6 +101,7 @@ try {
     "/writing/why-i-developed-selectly",
     "/about",
     "/now",
+    "/favorites",
   ]) {
     await page.goto(base + "/zh" + route);
     await page.getByRole("link", { name: "Switch to English" }).click();
@@ -96,7 +138,7 @@ try {
   await noJS.close();
   assert.deepEqual(errors, []);
   console.log(
-    "PASS: 42 responsive pages, bilingual navigation, filters, query/hash preservation, RSS XML and no-JS switching.",
+    "PASS: 48 responsive pages, bilingual navigation, filters, query/hash preservation, RSS XML and no-JS switching.",
   );
 } finally {
   await browser.close();

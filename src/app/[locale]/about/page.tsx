@@ -48,6 +48,13 @@ export default async function About({ params }: Props) {
         <p>{t.backgroundText}</p>
         <h2>{t.howIWork}</h2>
         <p>{t.howIWorkText}</p>
+        <h2>{t.favorites}</h2>
+        <p>{t.favoritesDescription}</p>
+        <p>
+          <Link href={localizedPath(locale, "/favorites")}>
+            {t.allFavorites} →
+          </Link>
+        </p>
         <h2>{t.connect}</h2>
       </div>
       <Connect locale={locale} />

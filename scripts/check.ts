@@ -47,6 +47,7 @@ async function main() {
       "/writing",
       "/about",
       "/now",
+      "/favorites",
       "/feed.xml",
       "/llms.txt",
       "/llms-full.txt",

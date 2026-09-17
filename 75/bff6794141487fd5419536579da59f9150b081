@@ -1,0 +1,47 @@
+scripts/browser-check.mjs
+  s_2ca215eba2190f::t_436e1a808f42c5 27,42-43,72,80-88
+  s_2ca215eba2190f::t_13dde8b91fdfa2 44-71
+  s_2ca215eba2190f::t_82e6a298f7e947 104,141
+scripts/check.ts
+  s_2ca215eba2190f::t_82e6a298f7e947 50
+src/app/[locale]/page.tsx
+  s_2ca215eba2190f::t_82e6a298f7e947 2,138-145
+  s_2ca215eba2190f::t_0cab74bfec7bf0 146
+src/lib/i18n.ts
+  s_2ca215eba2190f::t_ba485f22566718 37-38,143-144
+  s_2ca215eba2190f::t_82e6a298f7e947 45-48,151-154
+src/app/[locale]/favorites/page.tsx
+  s_2ca215eba2190f::t_20ea73f6d2fab6 1-10,17-32
+  s_2ca215eba2190f::t_ba485f22566718 11-16
+src/app/[locale]/about/page.tsx
+  s_2ca215eba2190f::t_82e6a298f7e947 51-57
+src/app/globals.css
+  s_2ca215eba2190f::t_ba485f22566718 1082-1135
+src/components/favorites.tsx
+  h_18676a549cd52a 9,20
+  s_2ca215eba2190f::t_20ea73f6d2fab6 1-6,11,16-18,27-41,43-45,47-52
+  s_2ca215eba2190f::t_13dde8b91fdfa2 7-8,10,12-15,19,21-26,42,46
+src/app/sitemap.ts
+  s_2ca215eba2190f::t_ba485f22566718 7-16,18-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "75bff6794141487fd5419536579da59f9150b081",
+  "prompts": {},
+  "humans": {
+    "h_18676a549cd52a": {
+      "author": "samanhappy <samanhappy@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2ca215eba2190f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aefb-3409-7dc2-82ac-6be6f1606c10",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "samanhappy <samanhappy@gmail.com>"
+    }
+  }
+}

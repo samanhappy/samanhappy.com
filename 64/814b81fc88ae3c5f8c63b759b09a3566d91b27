@@ -1,0 +1,23 @@
+src/app/opengraph-image/route.tsx
+  s_686287a76bd79a::t_e5762bb0362309 31
+src/components/ui.tsx
+  s_686287a76bd79a::t_e5762bb0362309 66
+src/lib/i18n.ts
+  s_686287a76bd79a::t_e5762bb0362309 56,114,162,223
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "64814b81fc88ae3c5f8c63b759b09a3566d91b27",
+  "prompts": {},
+  "sessions": {
+    "s_686287a76bd79a": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "82cf4358-3681-4b62-9175-d80fbe8cc125",
+        "model": "copilot/grok-4.6"
+      },
+      "human_author": "samanhappy <samanhappy@gmail.com>"
+    }
+  }
+}

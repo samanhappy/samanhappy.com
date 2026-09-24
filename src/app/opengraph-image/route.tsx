@@ -28,7 +28,7 @@ export function GET() {
           color: "#3f6654",
         }}
       >
-        MCPHub · Codex Reset · Selectly
+        MCPHub · Selectly
       </div>
     </div>,
     size,

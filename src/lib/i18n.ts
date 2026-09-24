@@ -53,7 +53,7 @@ export const copy = {
       "我是青扬，一名关注 AI 工程、开发者工具和 Agent 基础设施的软件工程师。工作中，我参与企业 AI 系统建设；工作之外，我维护开源项目，探索独立产品，希望把真实需求做成能长期使用的工具。",
     nowItems: [
       "将 MCPHub 打磨成值得信任的 MCP 网关。",
-      "为中文开发者推出 Codex Reset。",
+      "继续打磨 Selectly。",
       "探索从软件工程师到独立产品构建者的路径。",
     ],
     featured: "主项目",
@@ -111,7 +111,7 @@ export const copy = {
       },
       {
         title: "探索独立产品",
-        body: "为中文开发者推出 Codex Reset，也继续打磨 Selectly。从具体的小问题出发，理解什么样的工具会被长期使用。",
+        body: "继续打磨 Selectly。从具体的小问题出发，理解什么样的工具会被长期使用。",
         link: "/projects",
         label: "看看这些产品",
       },
@@ -159,7 +159,7 @@ export const copy = {
       "I'm Saman, a software engineer focused on AI engineering, developer tools, and agent infrastructure. At work, I build enterprise AI systems. Outside work, I maintain open-source projects and explore independent products—useful tools built around real needs.",
     nowItems: [
       "Building MCPHub into a trusted MCP gateway.",
-      "Launching Codex Reset for Chinese developers.",
+      "Continuing to improve Selectly.",
       "Exploring the path from software engineer to independent builder.",
     ],
     featured: "Featured",
@@ -220,7 +220,7 @@ export const copy = {
       },
       {
         title: "Exploring independent products",
-        body: "Launching Codex Reset for Chinese developers and continuing to improve Selectly. Starting with small, concrete problems and learning which tools people return to.",
+        body: "Continuing to improve Selectly. Starting with small, concrete problems and learning which tools people return to.",
         link: "/projects",
         label: "See the projects",
       },

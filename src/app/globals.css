@@ -291,9 +291,6 @@ main {
   height: 39px;
   border-radius: 8px;
 }
-.project-icon.codex-reset {
-  background: #252a2d;
-}
 .badge {
   display: inline-block;
   align-self: flex-start;

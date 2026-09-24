@@ -6,7 +6,6 @@ import {
   Rss,
   Mail,
   Box,
-  Terminal,
   Compass,
   BookOpen,
 } from "lucide-react";
@@ -64,7 +63,7 @@ export function SectionHeading({
 }
 export function ProjectIcon({ slug }: { slug: string }) {
   const Icon =
-    slug === "mcphub" ? Box : slug === "codex-reset" ? Terminal : Compass;
+    slug === "mcphub" ? Box : Compass;
   return (
     <span className={`project-icon ${slug}`}>
       <Icon size={24} strokeWidth={1.4} />

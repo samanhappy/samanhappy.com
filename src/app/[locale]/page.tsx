@@ -43,7 +43,6 @@ export default async function Home({ params }: Props) {
                 site.x,
                 "https://mcphub.app",
                 "https://selectly.app",
-                "https://codex-reset.cn",
               ],
             },
             {

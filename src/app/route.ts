@@ -20,8 +20,12 @@ export function GET(request: Request) {
     .sort((a, b) => b.quality - a.quality);
   const url = new URL(request.url);
   url.pathname = `/${preferences[0]?.locale || defaultLocale}`;
-  return NextResponse.redirect(url, {
+  return new NextResponse(null, {
     status: 307,
-    headers: { "Cache-Control": "private, no-store", Vary: "Accept-Language" },
+    headers: {
+      Location: url.pathname + url.search,
+      "Cache-Control": "private, no-store",
+      Vary: "Accept-Language",
+    },
   });
 }

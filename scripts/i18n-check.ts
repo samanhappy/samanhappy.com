@@ -1,6 +1,16 @@
 import assert from "node:assert/strict";
+import { GET } from "../src/app/route";
 const base = process.env.CHECK_BASE_URL || "http://127.0.0.1:3100";
 async function main() {
+  const internalResponse = GET(
+    new Request("http://0.0.0.0:3000/?ref=proxy-check", {
+      headers: {
+        "Accept-Language": "en",
+        "X-Forwarded-Host": "samanhappy.com",
+      },
+    }),
+  );
+  assert.equal(internalResponse.headers.get("location"), "/en?ref=proxy-check");
   for (const [language, locale] of [
     ["zh-CN,zh;q=0.9,en;q=0.8", "zh"],
     ["zh-TW,en;q=0.8", "zh"],
@@ -20,6 +30,11 @@ async function main() {
     });
     assert.equal(response.status, 307, language);
     const location = new URL(response.headers.get("location")!, base);
+    assert.equal(
+      location.origin,
+      new URL(base).origin,
+      "redirect stays on the public origin",
+    );
     assert.equal(location.pathname, `/${locale}`, language);
     assert.equal(location.search, "?ref=language-check");
     assert.match(response.headers.get("cache-control") || "", /no-store/);

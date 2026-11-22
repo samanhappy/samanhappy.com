@@ -11,6 +11,8 @@ async function main() {
         const r = await fetch(base + url);
         assert.equal(r.status, 200, url);
         const html = await r.text();
+        const head = html.match(/<head[\s\S]*?<\/head>/i)?.[0] || "";
+        assert.ok(head, `${url}: missing <head>`);
         const json = Array.from(
           html.matchAll(
             /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,
@@ -31,7 +33,8 @@ async function main() {
             "alternate locale",
           );
         assert.ok(
-          !html.includes("http://localhost:3000"),
+          !head.includes("http://localhost:3000") &&
+            !JSON.stringify(json).includes("http://localhost:3000"),
           `${url}: localhost metadata`,
         );
         const raw = await fetch(base + url + ".md");

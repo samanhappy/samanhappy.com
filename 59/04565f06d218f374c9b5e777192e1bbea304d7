@@ -1,0 +1,24 @@
+.github/workflows/deploy.yml
+  h_18676a549cd52a 1-105
+compose.yml
+  h_18676a549cd52a 3
+content/writing/en/mattpocock-21k-lines-ai-workflow.md
+  h_18676a549cd52a 1-159
+content/writing/zh/mattpocock-21k-lines-ai-workflow.md
+  h_18676a549cd52a 1-159
+scripts/deploy.sh
+  h_18676a549cd52a 1-92
+src/lib/image-dimensions.json
+  h_18676a549cd52a 125-160
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5904565f06d218f374c9b5e777192e1bbea304d7",
+  "prompts": {},
+  "humans": {
+    "h_18676a549cd52a": {
+      "author": "samanhappy <samanhappy@gmail.com>"
+    }
+  }
+}

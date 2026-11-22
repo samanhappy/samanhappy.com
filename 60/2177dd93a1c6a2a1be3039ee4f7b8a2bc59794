@@ -1,0 +1,14 @@
+scripts/check.ts
+  h_18676a549cd52a 14-15,36-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "602177dd93a1c6a2a1be3039ee4f7b8a2bc59794",
+  "prompts": {},
+  "humans": {
+    "h_18676a549cd52a": {
+      "author": "samanhappy <samanhappy@gmail.com>"
+    }
+  }
+}
